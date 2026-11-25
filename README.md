@@ -2,9 +2,11 @@
 
 Laboratorio virtuale di **impianti elettrici del veicolo**: un banco didattico con pannelli, boccole da 4 mm e cavetti, come quelli dei laboratori delle scuole, che funziona nel browser su LIM, PC, tablet e Chromebook, senza installare niente.
 
-**▶ Apri il simulatore: https://gisquarecircuiti.github.io/GiSquareVeicoli/**
+**▶ Apri il simulatore: https://gisquarecircuiti.github.io/GiSquareVeicoli/app/**
 
-Si può anche scaricare la pagina (`index.html`) e aprirla con un doppio clic: funziona anche senza Internet.
+**Sito: https://gisquarecircuiti.github.io/GiSquareVeicoli/**
+
+Si può anche scaricare la pagina del simulatore (`app/index.html`) e aprirla con un doppio clic: funziona anche senza Internet.
 
 ## Cosa si fa
 
