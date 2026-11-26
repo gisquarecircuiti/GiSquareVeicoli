@@ -16,7 +16,8 @@ Si può anche scaricare la pagina del simulatore (`app/index.html`) e aprirla co
 - **17 esercizi**: luci, relè, frecce, stop, clacson, luce abitacolo, elettroventola, avviamento, ricarica, tergicristallo con intermittenza e lavavetro, alzacristalli, strumenti di bordo con sensori, centralina con PWM e rete CAN, ibrido a 48 V, elettrica ad alta tensione con procedura di messa in sicurezza, prova delle compressioni relative con il sensore di fase.
 - **Diagnosi**: 69 guasti nascosti (anche due o tre insieme), con il sintomo raccontato dal cliente, registro delle misure, esito, spiegazione del guasto e preventivo della riparazione.
 - **Suoni e acceleratore**: clac dell’elettromagnete, motorino d’avviamento, motore che segue i giri con il pedale GAS.
-- **Modalità docente** con PIN: soluzioni, scelta del guasto, elenco dei guasti con le soluzioni da stampare, listino del preventivo.
+- **Soluzioni per tutti** fuori dalle verifiche: cablaggio della soluzione, guasti con le soluzioni da stampare, listino e preventivo.
+- **Verifiche con PIN**: lo studente risponde alle domande e consegna scheda e file; con il PIN il docente corregge, vede le soluzioni e assegna voto e giudizio, come in GiSquare Circuiti.
 - **Verifiche**: il docente prepara una prova e ottiene un codice o un link da dare agli studenti; lo studente consegna la scheda in PDF.
 - **File `.gsv`** per salvare e riaprire il banco.
 
