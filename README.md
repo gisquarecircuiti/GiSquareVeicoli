@@ -17,7 +17,9 @@ Si può anche scaricare la pagina del simulatore (`app/index.html`) e aprirla co
 - **Diagnosi**: 69 guasti nascosti (anche due o tre insieme), con il sintomo raccontato dal cliente, registro delle misure, esito, spiegazione del guasto e preventivo della riparazione.
 - **Suoni e acceleratore**: clac dell’elettromagnete, motorino d’avviamento, motore che segue i giri con il pedale GAS.
 - **Soluzioni per tutti** fuori dalle verifiche: cablaggio della soluzione, guasti con le soluzioni da stampare, listino e preventivo.
-- **Verifiche con PIN**: lo studente risponde alle domande e consegna scheda e file; con il PIN il docente corregge, vede le soluzioni e assegna voto e giudizio, come in GiSquare Circuiti.
+- **Verifiche con PIN**: lo studente risponde alle domande e consegna scheda e file; con il PIN il docente corregge, vede le soluzioni e assegna voto e giudizio, e il **riepilogo di classe** mette tutti i voti in una tabella (PDF e CSV per Excel), come in GiSquare Circuiti.
+- **Guide in PDF**: guida rapida, manuale d’uso e guida per i docenti.
+- **Oscilloscopio a due canali**, pinza con MAX, batteria in quattro taglie, vista Auto con chiave, contagiri e pedale.
 - **Verifiche**: il docente prepara una prova e ottiene un codice o un link da dare agli studenti; lo studente consegna la scheda in PDF.
 - **File `.gsv`** per salvare e riaprire il banco.
 

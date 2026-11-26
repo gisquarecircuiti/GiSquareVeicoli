@@ -273,3 +273,6 @@ h2 em, h1 em { color: var(--verde-scuro); }
   html { scroll-behavior: auto; }
   .bottone, .carta { transition: none; }
 }
+
+.coppia { display: grid; grid-template-columns: 1fr 1fr; gap: 28px; margin-top: 56px; }
+@media (max-width: 960px) { .coppia { grid-template-columns: 1fr; gap: 24px; } }

@@ -15,7 +15,7 @@
   // I link delle verifiche aperti sull'indirizzo del sito vanno al simulatore.
   if (/^#verifica=/.test(location.hash)) location.replace('app/' + location.hash);
 </script>
-<link rel="stylesheet" href="styles.css?v=4b788b6f47">
+<link rel="stylesheet" href="styles.css?v=63b106981d">
 </head>
 <body>
 <a class="salta" href="#contenuto">Vai al contenuto</a>
@@ -54,7 +54,7 @@
   <figure class="eroe-foto">
     <div class="finestra">
       <div class="finestra-barra"><i></i><i></i><i></i><span>GiSquare Veicoli · Anabbaglianti e abbaglianti con relè</span></div>
-      <img src="assets/banco.webp?v=d91867b93e" width="1600" height="900" alt="Il banco con alimentatore, fusibili, interruttore luci, devioluci, due relè e i fari accesi, collegati con cavetti colorati">
+      <img src="assets/banco.webp?v=32675824c9" width="1600" height="900" alt="Il banco con alimentatore, fusibili, interruttore luci, devioluci, due relè e i fari accesi, collegati con cavetti colorati">
     </div>
     <span class="etichetta-foto alto"><span class="punto"></span>12,3 V · 9,30 A</span>
     <figcaption class="cartellino"><span aria-hidden="true">↗</span> Un cavetto alla volta.<b>Come in officina.</b></figcaption>
@@ -75,11 +75,11 @@
     <p class="intesta-testo">Un laboratorio di impianti elettrici del veicolo che sta in una pagina web: dalla prima lampada alla rete CAN, dal motorino d’avviamento alla messa in sicurezza di un’auto elettrica.</p>
   </div>
   <ol class="griglia-6">
-    <li><span>01</span><h3>Banco realistico</h3><p>Moduli che si montano sul telaio, boccole colorate, cavetti impilabili con il colore che segue il filo: rosso il positivo, marrone la massa.</p></li>
-    <li><span>02</span><h3>Schema e auto</h3><p>Lo stesso banco come schema elettrico con la corrente animata, e un’auto che mostra dove si trova ogni componente.</p></li>
-    <li><span>03</span><h3>Strumenti e suoni veri</h3><p>Multimetro, pinza con MAX per la corrente di spunto, lampada di prova, oscilloscopio a due canali. Si sentono il clac del motorino e il motore che sale di giri con il pedale.</p></li>
+    <li><span>01</span><h3>Banco realistico</h3><p>Moduli che si montano sul telaio, boccole colorate, cavetti che si spostano e si impilano, guida numerata al cablaggio, batteria in quattro taglie (da 40 a 95 Ah).</p></li>
+    <li><span>02</span><h3>Schema e auto</h3><p>Lo stesso banco come schema elettrico con la corrente animata, e un’auto che mostra dove si trova ogni componente, con chiave, contagiri e pedale per avviare e accelerare.</p></li>
+    <li><span>03</span><h3>Strumenti e suoni veri</h3><p>Multimetro, pinza con MAX per la corrente di spunto, lampada di prova, oscilloscopio a due canali indipendenti. Si sentono il clac del motorino e il motore che sale di giri con il pedale.</p></li>
     <li><span>04</span><h3>Diagnosi</h3><p>Uno, due o tre guasti nascosti, il cliente che racconta il sintomo, il registro delle misure. Dopo la consegna: perché succede, come si trova, come si ripara e il preventivo.</p></li>
-    <li><span>05</span><h3>Verifiche</h3><p>Il docente prepara la prova e la manda con un link. Ogni studente ha il suo guasto, con tempo e scheda da stampare.</p></li>
+    <li><span>05</span><h3>Verifiche</h3><p>Il docente prepara la prova con un PIN e la manda con un link. Lo studente risponde e consegna; il docente corregge, dà il voto e vede la classe in una tabella.</p></li>
     <li><span>06</span><h3>Ibrido ed elettrico</h3><p>Batteria a 48 V con motogeneratore e DC-DC, pacco ad alta tensione con interblocco e procedura di messa in sicurezza.</p></li>
   </ol>
 </section>
@@ -96,16 +96,16 @@
       <button role="tab" aria-selected="false" aria-controls="v-auto" id="t-auto" tabindex="-1"><span>03</span><b>Auto</b><small>Dove sono i componenti sul veicolo</small></button>
     </div>
     <div class="pannello-vista" role="tabpanel" id="v-reale" aria-labelledby="t-reale">
-      <div class="vista-testo"><p class="occhiello">Vista 01 / Realistica</p><h3>Le mani<br>sul banco.</h3><p>Si trascina il cavetto da una boccola all’altra, si girano i comandi, si legge il display dell’alimentatore. I fari si accendono, il motorino gira, il tergicristallo torna a riposo.</p><ul class="pastiglie"><li>Boccole da 4 mm</li><li>Cavetti impilabili</li><li>Tensioni sulle boccole</li></ul></div>
-      <figure class="foto-vista"><img src="assets/banco.webp?v=d91867b93e" width="1600" height="900" alt="Vista realistica del banco" loading="lazy"><figcaption>Anabbaglianti accesi con due relè</figcaption></figure>
+      <div class="vista-testo"><p class="occhiello">Vista 01 / Realistica</p><h3>Le mani<br>sul banco.</h3><p>Si trascina il cavetto da una boccola all’altra, si girano i comandi, si legge il display dell’alimentatore. I fari si accendono, il motorino gira, il tergicristallo torna a riposo.</p><ul class="pastiglie"><li>Boccole da 4 mm</li><li>Cavetti spostabili e impilabili</li><li>Guida al cablaggio</li><li>Tensioni sulle boccole</li></ul></div>
+      <figure class="foto-vista"><img src="assets/banco.webp?v=32675824c9" width="1600" height="900" alt="Vista realistica del banco" loading="lazy"><figcaption>Anabbaglianti accesi con due relè</figcaption></figure>
     </div>
     <div class="pannello-vista" role="tabpanel" id="v-schema" aria-labelledby="t-schema" hidden>
       <div class="vista-testo"><p class="occhiello">Vista 02 / Schema</p><h3>Il disegno<br>che spiega.</h3><p>Lo stesso cablaggio diventa uno schema con i simboli dei componenti e la corrente che scorre nei fili: si vede dove passa e dove si ferma.</p><ul class="pastiglie"><li>Simboli dei componenti</li><li>Corrente animata</li><li>Stesso cablaggio</li></ul></div>
-      <figure class="foto-vista"><img src="assets/schema.webp?v=69f891ab80" width="1600" height="900" alt="Vista schema elettrico dello stesso banco" loading="lazy"><figcaption>Lo stesso circuito, in forma di schema</figcaption></figure>
+      <figure class="foto-vista"><img src="assets/schema.webp?v=af62228e2c" width="1600" height="900" alt="Vista schema elettrico dello stesso banco" loading="lazy"><figcaption>Lo stesso circuito, in forma di schema</figcaption></figure>
     </div>
     <div class="pannello-vista" role="tabpanel" id="v-auto" aria-labelledby="t-auto" hidden>
-      <div class="vista-testo"><p class="occhiello">Vista 03 / Auto</p><h3>Dal banco<br>al veicolo.</h3><p>Un’auto vista di fianco e dall’alto mostra dove si trovano i componenti montati sul banco: si tocca un componente e si torna al suo pannello.</p><ul class="pastiglie"><li>Fianco e pianta</li><li>Posizioni tipiche</li><li>Anche le parti EV</li></ul></div>
-      <figure class="foto-vista"><img src="assets/auto.webp?v=bb07672b60" width="1600" height="900" alt="Vista auto con i componenti indicati sul veicolo" loading="lazy"><figcaption>Dove sono fari, relè, batteria e devioluci</figcaption></figure>
+      <div class="vista-testo"><p class="occhiello">Vista 03 / Auto</p><h3>Dal banco<br>al veicolo.</h3><p>Un’auto vista di fianco e dall’alto mostra dove si trovano i componenti montati sul banco: si tocca un componente e si torna al suo pannello. In basso a destra un cruscotto con la chiave, il contagiri e il pedale GAS: si avvia il motore e si accelera senza tornare al banco.</p><ul class="pastiglie"><li>Fianco e pianta</li><li>Chiave e acceleratore</li><li>Anche le parti EV</li></ul></div>
+      <figure class="foto-vista"><img src="assets/auto.webp?v=f7b1af27db" width="1600" height="900" alt="Vista auto con i componenti indicati sul veicolo e il cruscotto con chiave, contagiri e pedale" loading="lazy"><figcaption>Il motore in moto a 6000 giri: contagiri e pedale GAS in basso a destra</figcaption></figure>
     </div>
   </div>
 </section>
@@ -113,7 +113,7 @@
 <section class="sezione esercizi" id="esercizi">
   <div class="intesta">
     <div><p class="occhiello">Esercizi guidati</p><h2>Dalla lampada<br>alla <em>rete CAN.</em></h2></div>
-    <p class="intesta-testo">Ogni esercizio ha l’obiettivo, i passi per cablare, le prove e le misure da fare. Il pulsante «Verifica» controlla il cablaggio e dice che cosa manca. C’è anche il banco libero, per montare quello che si vuole.</p>
+    <p class="intesta-testo">Ogni esercizio ha l’obiettivo, i passi per cablare, le prove e le misure da fare. Il pulsante «Verifica» controlla il cablaggio e dice che cosa manca. C’è anche il banco libero, per montare quello che si vuole. Fuori dalle verifiche la soluzione e i guasti con le spiegazioni sono a disposizione di tutti, per esercitarsi.</p>
   </div>
   <div class="gruppi">
     <div class="gruppo"><h3><span>Luci e segnalazione</span></h3><ol start="1"><li>Accendere una lampada</li><li>Luci di posizione</li><li>Anabbaglianti e abbaglianti con relè</li><li>Luci di arresto</li><li>Indicatori di direzione</li><li>Clacson con relè</li><li>Luce abitacolo (comando a massa)</li></ol></div>
@@ -121,7 +121,7 @@
     <div class="gruppo"><h3><span>Elettronica e reti</span></h3><ol start="13"><li>Termometro e carburante con sensori</li><li>Centralina di bordo, PWM e CAN</li></ol></div>
     <div class="gruppo"><h3><span>Veicoli elettrificati</span></h3><ol start="15"><li>Ibrido leggero a 48 V</li><li>Elettrica: alta tensione e messa in sicurezza</li></ol></div>
   </div>
-  <figure class="foto-larga"><img src="assets/ricarica-scuro.webp?v=dd5e781f29" width="1600" height="900" alt="Esercizio di ricarica a motore acceso: batteria a 14 V, motore a 850 giri al minuto" loading="lazy"><figcaption><span>Ricarica, a motore acceso</span> la batteria sale a 14 V e la spia si spegne · tema scuro</figcaption></figure>
+  <figure class="foto-larga"><img src="assets/ricarica-scuro.webp?v=6a1f07e8cb" width="1600" height="900" alt="Esercizio di ricarica a motore acceso: batteria a 14 V, motore a 850 giri al minuto" loading="lazy"><figcaption><span>Ricarica, a motore acceso</span> la batteria sale a 14 V e la spia si spegne · tema scuro</figcaption></figure>
 </section>
 
 <section class="sezione strumenti scura" id="strumenti">
@@ -130,12 +130,12 @@
     <p class="intesta-testo">Gli strumenti si comportano come quelli dell’officina: il multimetro va in parallelo, la pinza si chiude attorno al cavetto, la lampada di prova si accende solo se la corrente passa.</p>
   </div>
   <div class="due-colonne">
-    <figure class="foto-vista"><img src="assets/oscilloscopio.webp?v=94d6a7a967" width="1600" height="900" alt="Oscilloscopio che mostra il comando PWM della centralina sulla lampada posteriore" loading="lazy"><figcaption>La centralina comanda la luce di posizione in PWM: all’oscilloscopio si vede l’onda quadra</figcaption></figure>
+    <figure class="foto-vista"><img src="assets/oscilloscopio.webp?v=52763888c7" width="1600" height="900" alt="Oscilloscopio a due canali: la freccia in giallo e l’alimentazione dell’intermittenza in azzurro" loading="lazy"><figcaption>Due canali indipendenti: la freccia (A) e l’alimentazione dell’intermittenza (B) che cala a ogni lampeggio</figcaption></figure>
     <ul class="schede-strumenti">
       <li><b>Multimetro</b><span>Tensione continua, resistenza, continuità e corrente, con i puntali da appoggiare alle boccole. Avvisa quando la tensione è pericolosa.</span></li>
       <li><b>Pinza amperometrica</b><span>Si chiude su un cavetto e misura la corrente senza aprire il circuito; con MAX tiene il picco, la corrente di spunto del motorino.</span></li>
       <li><b>Lampada di prova</b><span>Pinza a massa e punta sul circuito: la prova più semplice e più usata in officina.</span></li>
-      <li><b>Oscilloscopio</b><span>Due canali: la sonda per la tensione e la pinza per la corrente. Per il lampeggio, il PWM, la ricarica, e le compressioni cilindro per cilindro con il sensore di fase.</span></li>
+      <li><b>Oscilloscopio</b><span>Due canali di tensione indipendenti, ognuno con la sua sonda, la sua scala e DC o AC; CH B può mostrare invece la corrente della pinza. Per il lampeggio, il PWM, la ricarica e le compressioni cilindro per cilindro.</span></li>
     </ul>
   </div>
 </section>
@@ -145,30 +145,34 @@
     <div>
       <p class="occhiello">Diagnosi</p>
       <h2>Il cliente<br>dice <em>che…</em></h2>
-      <p class="intesta-testo">Il simulatore nasconde un guasto nel circuito cablato bene: una lampada interrotta, il contatto di un relè incollato, una massa ossidata, il regolatore di tensione guasto, le spazzole consumate del motorino. Lo studente legge il sintomo raccontato dal cliente, prova, misura e annota.</p>
+      <p class="intesta-testo">Il simulatore nasconde uno, due o tre guasti nel circuito cablato bene, scelti fra 69: una lampada interrotta, il contatto di un relè incollato, una massa ossidata, la batteria solfatata, il cilindro con poca compressione. Lo studente legge il sintomo raccontato dal cliente, prova, misura e annota.</p>
       <ol class="passi">
         <li><b>Ascolta il sintomo</b><span>«L’utilizzatore comandato dal relè K1 resta sempre acceso, anche con il comando spento.»</span></li>
-        <li><b>Misura e annota</b><span>Con «✎ Annota» ogni misura finisce nel registro, con lo strumento e il punto di misura.</span></li>
-        <li><b>Indica la causa</b><span>Si sceglie il componente e il guasto: il simulatore dice se è giusto e quanto tempo è servito.</span></li>
+        <li><b>Misura e annota</b><span>Con «✎ Annota» ogni misura finisce nel 📒 Registro delle misure della scheda, con lo strumento e il punto di misura.</span></li>
+        <li><b>Indica la causa</b><span>Si sceglie il componente e il guasto: il simulatore dice se è giusto, spiega perché succede, come si trova e come si ripara, e calcola il preventivo con il listino del docente.</span></li>
       </ol>
     </div>
-    <figure class="foto-vista"><img src="assets/diagnosi.webp?v=4df94ea071" width="1600" height="900" alt="Diagnosi in corso con il sintomo del cliente e il registro delle misure" loading="lazy"><figcaption>Diagnosi in corso: sintomo, registro e scelta del guasto</figcaption></figure>
+    <figure class="foto-vista"><img src="assets/diagnosi.webp?v=086787253a" width="1600" height="900" alt="Diagnosi in corso con il sintomo del cliente, una misura nel registro e la scelta del guasto" loading="lazy"><figcaption>Diagnosi in corso: sintomo, registro delle misure e scelta del guasto</figcaption></figure>
   </div>
 </section>
 
 <section class="sezione docenti" id="docenti">
   <div class="intesta">
     <div><p class="occhiello">Per i docenti</p><h2>Dalla prova<br>al <em>voto.</em></h2></div>
-    <p class="intesta-testo">Le verifiche si preparano nel simulatore e si mandano agli studenti con un link o un codice. Non servono account né registri online.</p>
+    <p class="intesta-testo">Le verifiche si preparano nel simulatore e si mandano agli studenti con un link o un codice; le consegne tornano come file. Non servono account né registri online.</p>
   </div>
   <ol class="griglia-6 tre">
     <li><span>01</span><h3>Tre tipi di prova</h3><p>Solo cablaggio, diagnosi su un circuito già cablato, oppure completa: prima si cabla, poi si trova il guasto.</p></li>
-    <li><span>02</span><h3>Un guasto per studente</h3><p>Con «guasto a caso» ogni studente riceve il suo, sempre lo stesso anche se riapre il link: niente suggerimenti dal vicino di banco.</p></li>
-    <li><span>03</span><h3>Tempo, risposte e scheda</h3><p>Tempo a disposizione, esito e registro delle misure finiscono nella scheda da stampare o salvare in PDF, con nome e classe.</p></li>
+    <li><span>02</span><h3>Una prova per studente</h3><p>Con «guasto a caso» (da uno a tre guasti) ogni studente riceve i suoi, sempre gli stessi anche se riapre il link: niente suggerimenti dal vicino di banco.</p></li>
+    <li><span>03</span><h3>Risposte e consegna</h3><p>Lo studente risponde alle domande, ha il tempo a disposizione e consegna: scheda in PDF e un file con il suo lavoro, senza le soluzioni. Se ricarica la pagina la verifica riprende.</p></li>
     <li><span>04</span><h3>Il link resta privato</h3><p>Il codice della prova è nella parte del link dopo il «#»: il browser non lo manda a nessun server.</p></li>
-    <li><span>05</span><h3>File del banco</h3><p>Un banco si salva in un file .gsv e si riapre quando serve: per preparare una lezione o consegnare un lavoro.</p></li>
-    <li><span>06</span><h3>Correzione con il PIN</h3><p>La verifica si protegge con un PIN: lo studente consegna scheda e file; con il PIN il docente vede le soluzioni, assegna i punti e ottiene voto, giudizio e PDF della correzione.</p></li>
+    <li><span>05</span><h3>Voto come in Circuiti</h3><p>Punti proposti per cablaggio e guasti, domande con 0, metà o pieno e un commento; il voto si calcola da solo con minimo e sufficienza che scegli tu.</p></li>
+    <li><span>06</span><h3>Correzione e riepilogo</h3><p>Con il PIN il docente vede le soluzioni, corregge e stampa il PDF; il riepilogo di classe mette tutti i voti in una tabella, con la media, in PDF e in CSV per Excel.</p></li>
   </ol>
+  <div class="coppia">
+    <figure class="foto-vista"><img src="assets/correzione.webp?v=88fc6f5522" width="1600" height="900" alt="Finestra di correzione di una verifica con punti, voto e giudizio" loading="lazy"><figcaption>La correzione: punti, soluzioni, domande e voto</figcaption></figure>
+    <figure class="foto-vista"><img src="assets/riepilogo.webp?v=d598f9ebc1" width="1600" height="900" alt="Riepilogo di classe con i voti e la media" loading="lazy"><figcaption>Il riepilogo di classe, in PDF e per Excel</figcaption></figure>
+  </div>
 </section>
 
 <section class="sezione alta scura" id="alta-tensione">
@@ -190,7 +194,7 @@
       </ol>
       <p class="nota">Il simulatore serve a imparare la sequenza; non sostituisce la formazione e le abilitazioni richieste per lavorare sui veicoli ad alta tensione.</p>
     </div>
-    <figure class="foto-vista"><img src="assets/alta-tensione.webp?v=b2bb347fac" width="1600" height="900" alt="Esercizio sull'auto elettrica con pacco ad alta tensione, inverter, DC-DC e procedura di messa in sicurezza" loading="lazy"><figcaption>Pacco HV, inverter e DC-DC con la procedura passo per passo</figcaption></figure>
+    <figure class="foto-vista"><img src="assets/alta-tensione.webp?v=3ae2b95585" width="1600" height="900" alt="Esercizio sull'auto elettrica con pacco ad alta tensione, inverter, DC-DC e procedura di messa in sicurezza" loading="lazy"><figcaption>Pacco HV, inverter e DC-DC con la procedura passo per passo</figcaption></figure>
   </div>
 </section>
 
