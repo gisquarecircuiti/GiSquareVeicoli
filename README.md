@@ -13,8 +13,10 @@ Si può anche scaricare la pagina del simulatore (`app/index.html`) e aprirla co
 - **Si cabla il banco** seguendo la scheda dell’esercizio e si verifica il cablaggio.
 - **Si misura** con multimetro, pinza amperometrica, lampada di prova e oscilloscopio.
 - **Tre viste**: realistica, schema elettrico e **auto** (dove si trovano i componenti sul veicolo).
-- **16 esercizi**: luci, relè, frecce, stop, clacson, luce abitacolo, elettroventola, avviamento, ricarica, tergicristallo con intermittenza e lavavetro, alzacristalli, strumenti di bordo con sensori, centralina con PWM e rete CAN, ibrido a 48 V, elettrica ad alta tensione con procedura di messa in sicurezza.
-- **Diagnosi**: oltre 40 guasti nascosti, con il sintomo raccontato dal cliente, registro delle misure ed esito.
+- **17 esercizi**: luci, relè, frecce, stop, clacson, luce abitacolo, elettroventola, avviamento, ricarica, tergicristallo con intermittenza e lavavetro, alzacristalli, strumenti di bordo con sensori, centralina con PWM e rete CAN, ibrido a 48 V, elettrica ad alta tensione con procedura di messa in sicurezza, prova delle compressioni relative con il sensore di fase.
+- **Diagnosi**: 69 guasti nascosti (anche due o tre insieme), con il sintomo raccontato dal cliente, registro delle misure, esito, spiegazione del guasto e preventivo della riparazione.
+- **Suoni e acceleratore**: clac dell’elettromagnete, motorino d’avviamento, motore che segue i giri con il pedale GAS.
+- **Modalità docente** con PIN: soluzioni, scelta del guasto, elenco dei guasti con le soluzioni da stampare, listino del preventivo.
 - **Verifiche**: il docente prepara una prova e ottiene un codice o un link da dare agli studenti; lo studente consegna la scheda in PDF.
 - **File `.gsv`** per salvare e riaprire il banco.
 
